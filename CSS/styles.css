@@ -1,0 +1,164 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+    color: #212529;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.navbar-toggler {
+    background-color: #212529;
+}
+
+#nav-bar {
+    background-color: #FBFF00;
+    padding: 2% 10% 0%;
+}
+
+.nav-item {
+    margin: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: #FF0000;
+}
+
+.title-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #FBFF00;
+    padding: 2% 10.5%;
+}
+
+.image-title {
+    width: 450px;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+
+.icon-button {
+    color: white;
+    margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .image-title {
+        width: 200px;
+    }
+}
+
+/* Contact */
+
+#Contact {
+    padding: 7% 10%;
+    text-align: center;
+}
+
+.contact-row {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-heading {
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+
+.contact-image1 {
+    width: 200px;
+    margin: 20px 20px;
+}
+
+.contact-image2 {
+    width: 200px;
+    margin: 20px 20px;
+}
+
+.contact-card {
+
+    border: solid 2px;
+}
+
+.card-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+
+
+@media (max-width: 750px) {
+    .contact-card {
+        margin-bottom: 50px;
+    }
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #FBFF00;
+    padding: 7% 10%;
+}
+
+.text-testimonial{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+#carousel-testimonial {
+    padding: 12% 15%;
+}  
+
+.icon-background{
+  background-color: #212529;
+}
+
+/* product */
+
+#products{
+    padding: 7% 10%;
+}
+
+.card-background{
+    background-color: #FBFF00;
+}
+.product-explain{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    padding: 2% 10%;
+    background-color: #FBFF00;
+}
+
+.footer-edit{
+    text-align: center;
+    font-weight: 500;
+}
