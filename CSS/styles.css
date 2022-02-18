@@ -1,16 +1,17 @@
 body {
     font-family: "Montserrat", sans-serif;
+    height: 100%;
+    overflow: auto;
 }
+
+/* navbar */
+
 
 .navbar-brand {
     color: #212529;
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     font-size: 3rem;
-}
-
-.navbar-toggler {
-    background-color: #212529;
 }
 
 #nav-bar {
@@ -42,8 +43,8 @@ body {
 
 .image-title {
     width: 450px;
-    margin-left: 30px;
-    margin-top: -30px;
+    /* margin-left: 30px;
+    margin-top: -30px; */
 }
 
 
@@ -63,6 +64,18 @@ body {
     .image-title {
         width: 200px;
     }
+
+    .title-heading{
+        font-size: 2rem;
+    }
+    .button-title{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width:1000px){
+    
 }
 
 /* Contact */
